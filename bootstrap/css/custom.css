@@ -90,46 +90,61 @@ body {
     margin-right: 10px;
 }
 
-/* CURRENT INVOLVEMENT
+/* CURRENT PROJECTS
 -------------------------------------------------- */
-.involvement-profile {
+.project-img {
+    width: 300px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .project-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* CURRENT COMMITTEE MEMBERS
+-------------------------------------------------- */
+.committee-member-profile {
     display: inline-block;
 }
 
-.involvement-profile-img {
+.committee-member-profile-img {
     margin-bottom: 20px;
 }
 
-.involvement-profile-img img {
+.committee-member-profile-img img {
     border-radius: 100%;
     width: 100px;
 }
 
 @media screen and (max-width: 767px) {
-    .involvement-profile-img {
+    .committee-member-profile-img {
         margin-top: 20px;
     }
 
-    .involvement-profile-name {
+    .committee-member-profile-name {
         margin-left: 10px;
         text-align: left;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .involvement-nth-row {
+    .committee-member-nth-row {
         margin-top: 40px;
     }
 
-    .involvement-info {
+    .committee-member-info {
         text-align: center;
     }
 
-    .involvement-profile-img img {
+    .committee-member-profile-img img {
         margin: auto;
     }
 
-    .involvement-profile-name {
+    .committee-member-profile-name {
         text-align: center;
     }
 }
